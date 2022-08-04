@@ -1,0 +1,15 @@
+{
+    "name": "reloj-de-rounds",
+    "short_name": "Rounds TImer",
+    "display": "fullscreen",
+    "orientation": "portrait",
+    "scope": "./",
+    "start_url": "./",
+    "icons": [
+        {
+            "src": "src/images/icon_boxing_timer.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ]
+}
