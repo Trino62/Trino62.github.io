@@ -1,5 +1,5 @@
 import { sound } from "./funciones.js";
-import Round from "./round";
+import Round from "./round.js";
 const ESTADO = {
   PAUSA: 0,
   NUEVO: 1,
