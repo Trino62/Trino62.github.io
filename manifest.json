@@ -9,7 +9,7 @@
     "icons": [
       {
         "src": "/src/images/icon_boxing_timer.png",
-        "type": "image/png", "sizes": "92x92"
+        "type": "image/png", "sizes": "96x96"
       }
     ]
   }
