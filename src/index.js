@@ -17,3 +17,13 @@ let cc = setInterval(myTimer, 1000);
 function myTimer() {
   reloj.incrementarSegundos();
 }
+
+
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", function() {
+    navigator.serviceWorker
+      .register("/serviceWorker.js")
+      .then(res => console.log("service worker registered"))
+      .catch(err => console.log("service worker not registered", err))
+  })
+}

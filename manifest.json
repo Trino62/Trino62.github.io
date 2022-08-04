@@ -1,15 +1,15 @@
 {
-    "name": "reloj-de-rounds",
-    "short_name": "Rounds TImer",
-    "display": "fullscreen",
-    "orientation": "portrait",
-    "scope": "./",
-    "start_url": "./",
+    "name": "Reloj de rounds",
+    "short_name": "TimerRound",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#fdfdfd",
+    "theme_color": "#db4938",
+    "orientation": "portrait-primary",
     "icons": [
-        {
-            "src": "src/images/icon_boxing_timer.png",
-            "type": "image/png",
-            "sizes": "512x512"
-        }
+      {
+        "src": "/src/images/icon_boxing_timer.png",
+        "type": "image/png", "sizes": "92x92"
+      }
     ]
-}
+  }
